@@ -79,7 +79,7 @@ This library includes the tools for rendering multi-view color and depth images 
 ---
 
 ### Citation
-This library is used for data preprocessing at our work [SK-PCN](https://papers.nips.cc/paper/2020/file/ba036d228858d76fb89189853a5503bd-Paper.pdf). If you find it helpful, please consider citing
+This library is used for data preprocessing in our work [SK-PCN](https://papers.nips.cc/paper/2020/file/ba036d228858d76fb89189853a5503bd-Paper.pdf). If you find it helpful, please consider citing
 ```
 @inproceedings{NEURIPS2020_ba036d22,
  author = {Nie, Yinyu and Lin, Yiqun and Han, Xiaoguang and Guo, Shihui and Chang, Jian and Cui, Shuguang and Zhang, Jian.J},
