@@ -69,7 +69,7 @@ This library includes the tools for rendering multi-view color and depth images 
    ```angular2html
    python visualization/draw_pc_from_depth.py
    ```
-5. The watertight meshes can be obtained by
+5. Watertight meshes can be obtained by
    ```angular2html
    python depth_fusion.py
    ```
@@ -79,7 +79,7 @@ This library includes the tools for rendering multi-view color and depth images 
 ---
 
 ### Citation
-This library is used as data preprocessing at our work [SK-PCN](https://papers.nips.cc/paper/2020/file/ba036d228858d76fb89189853a5503bd-Paper.pdf). If you find it helpful, please consider citing
+This library is used for data preprocessing at our work [SK-PCN](https://papers.nips.cc/paper/2020/file/ba036d228858d76fb89189853a5503bd-Paper.pdf). If you find it helpful, please consider citing
 ```
 @inproceedings{NEURIPS2020_ba036d22,
  author = {Nie, Yinyu and Lin, Yiqun and Han, Xiaoguang and Guo, Shihui and Chang, Jian and Cui, Shuguang and Zhang, Jian.J},
