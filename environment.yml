@@ -1,0 +1,44 @@
+name: renderer
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - _libgcc_mutex=0.1
+  - _openmp_mutex=4.5
+  - ca-certificates=2020.12.5
+  - certifi=2020.12.5
+  - ld_impl_linux-64=2.33.1
+  - libblas=3.9.0
+  - libcblas=3.9.0
+  - libffi=3.3
+  - libgcc-ng=9.3.0
+  - libgfortran-ng=9.3.0
+  - libgfortran5=9.3.0
+  - libgomp=9.3.0
+  - liblapack=3.9.0
+  - libopenblas=0.3.12
+  - libstdcxx-ng=9.3.0
+  - llvm-openmp=8.0.1
+  - ncurses=6.2
+  - numpy=1.19.5
+  - openmp=8.0.1
+  - openssl=1.1.1k
+  - pip=21.0.1
+  - point_cloud_utils=0.17.1
+  - python=3.6.13
+  - python_abi=3.6
+  - readline=8.1
+  - scipy=1.5.3
+  - setuptools=52.0.0
+  - sqlite=3.35.4
+  - tk=8.6.10
+  - wheel=0.36.2
+  - xz=5.2.5
+  - zlib=1.2.11
+  - pip:
+    - cython==0.29.23
+    - pandas==1.1.5
+    - pymcubes==0.1.2
+    - pytz==2021.1
+    - seaborn==0.11.1
+    - vtk==9.0.1
