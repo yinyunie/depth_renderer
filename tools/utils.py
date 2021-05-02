@@ -204,7 +204,7 @@ def estimate_point_normal(point_clouds):
     '''
     n_points_per_view = [pcd.shape[0] for pcd in point_clouds['pc']]
     full_pcd = np.vstack(point_clouds['pc'])
-    full_pcd_normal = pcu.estimate_normals(full_pcd, k=16)
+    full_pcd_normal = pcu.estimate_point_cloud_normals(full_pcd, k=16)
 
     view_id = 0
 
