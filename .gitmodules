@@ -1,0 +1,3 @@
+[submodule "external/pyfusion"]
+    path = external/pyfusion
+    url = https://github.com/yinyunie/pyfusion
